@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		755F4371006A4E1D2675D0FC /* Pods_ChatterboxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8415E78DDB950B9042A0E4E /* Pods_ChatterboxTests.framework */; };
+		B7D9FA90203FD11C0097AE67 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D9FA8F203FD11C0097AE67 /* ChatViewController.swift */; };
+		B7E8D4BB203E7D73006452AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E8D4BA203E7D73006452AF /* AppDelegate.swift */; };
+		B7E8D4BD203E7D73006452AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E8D4BC203E7D73006452AF /* LoginViewController.swift */; };
+		B7E8D4C0203E7D73006452AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E8D4BE203E7D73006452AF /* Main.storyboard */; };
+		B7E8D4C2203E7D73006452AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E8D4C1203E7D73006452AF /* Assets.xcassets */; };
+		B7E8D4C5203E7D73006452AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E8D4C3203E7D73006452AF /* LaunchScreen.storyboard */; };
+		B7E8D4D0203E7D73006452AF /* ChatterboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E8D4CF203E7D73006452AF /* ChatterboxTests.swift */; };
+		B7E8D4DB203E7D74006452AF /* ChatterboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E8D4DA203E7D74006452AF /* ChatterboxUITests.swift */; };
+		C36F7D82D4125E86429E3A33 /* Pods_ChatterboxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E6F4C9D51CCF33196C2C5A /* Pods_ChatterboxUITests.framework */; };
+		E9B3077E5A388A22E709C6A7 /* Pods_Chatterbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D75F2D3CBF82E8F55673384A /* Pods_Chatterbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7E8D4CC203E7D73006452AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7E8D4AF203E7D73006452AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7E8D4B6203E7D73006452AF;
+			remoteInfo = Chatterbox;
+		};
+		B7E8D4D7203E7D73006452AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7E8D4AF203E7D73006452AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7E8D4B6203E7D73006452AF;
+			remoteInfo = Chatterbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0716ED6FBAD8CA5A4D47892B /* Pods-Chatterbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatterbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatterbox/Pods-Chatterbox.debug.xcconfig"; sourceTree = "<group>"; };
+		5944BFD415E956A8E4EA6BD1 /* Pods-ChatterboxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatterboxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatterboxUITests/Pods-ChatterboxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7D9FA8F203FD11C0097AE67 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		B7E8D4B7203E7D73006452AF /* Chatterbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatterbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E8D4BA203E7D73006452AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7E8D4BC203E7D73006452AF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B7E8D4BF203E7D73006452AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7E8D4C1203E7D73006452AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7E8D4C4203E7D73006452AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7E8D4C6203E7D73006452AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E8D4CB203E7D73006452AF /* ChatterboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatterboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E8D4CF203E7D73006452AF /* ChatterboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatterboxTests.swift; sourceTree = "<group>"; };
+		B7E8D4D1203E7D73006452AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E8D4D6203E7D73006452AF /* ChatterboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatterboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E8D4DA203E7D74006452AF /* ChatterboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatterboxUITests.swift; sourceTree = "<group>"; };
+		B7E8D4DC203E7D74006452AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB4DD6361301D90327CCAD3D /* Pods-ChatterboxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatterboxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatterboxTests/Pods-ChatterboxTests.release.xcconfig"; sourceTree = "<group>"; };
+		C505FF7B9B0760B091D3453B /* Pods-Chatterbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatterbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatterbox/Pods-Chatterbox.release.xcconfig"; sourceTree = "<group>"; };
+		D75F2D3CBF82E8F55673384A /* Pods_Chatterbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatterbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFEAE53C70B10F053A0D739 /* Pods-ChatterboxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatterboxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatterboxTests/Pods-ChatterboxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1E6F4C9D51CCF33196C2C5A /* Pods_ChatterboxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatterboxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8415E78DDB950B9042A0E4E /* Pods_ChatterboxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatterboxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7561FC7562D1D04087F602 /* Pods-ChatterboxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatterboxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatterboxUITests/Pods-ChatterboxUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7E8D4B4203E7D73006452AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B3077E5A388A22E709C6A7 /* Pods_Chatterbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E8D4C8203E7D73006452AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755F4371006A4E1D2675D0FC /* Pods_ChatterboxTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E8D4D3203E7D73006452AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36F7D82D4125E86429E3A33 /* Pods_ChatterboxUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7824FF7FDB67A652D034FAC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D75F2D3CBF82E8F55673384A /* Pods_Chatterbox.framework */,
+				E8415E78DDB950B9042A0E4E /* Pods_ChatterboxTests.framework */,
+				E1E6F4C9D51CCF33196C2C5A /* Pods_ChatterboxUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D63386488B922FF6667C1D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0716ED6FBAD8CA5A4D47892B /* Pods-Chatterbox.debug.xcconfig */,
+				C505FF7B9B0760B091D3453B /* Pods-Chatterbox.release.xcconfig */,
+				DFFEAE53C70B10F053A0D739 /* Pods-ChatterboxTests.debug.xcconfig */,
+				BB4DD6361301D90327CCAD3D /* Pods-ChatterboxTests.release.xcconfig */,
+				5944BFD415E956A8E4EA6BD1 /* Pods-ChatterboxUITests.debug.xcconfig */,
+				EA7561FC7562D1D04087F602 /* Pods-ChatterboxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7E8D4AE203E7D73006452AF = {
+			isa = PBXGroup;
+			children = (
+				B7E8D4B9203E7D73006452AF /* Chatterbox */,
+				B7E8D4CE203E7D73006452AF /* ChatterboxTests */,
+				B7E8D4D9203E7D73006452AF /* ChatterboxUITests */,
+				B7E8D4B8203E7D73006452AF /* Products */,
+				8D63386488B922FF6667C1D3 /* Pods */,
+				7824FF7FDB67A652D034FAC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7E8D4B8203E7D73006452AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7E8D4B7203E7D73006452AF /* Chatterbox.app */,
+				B7E8D4CB203E7D73006452AF /* ChatterboxTests.xctest */,
+				B7E8D4D6203E7D73006452AF /* ChatterboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7E8D4B9203E7D73006452AF /* Chatterbox */ = {
+			isa = PBXGroup;
+			children = (
+				B7E8D4BA203E7D73006452AF /* AppDelegate.swift */,
+				B7E8D4BC203E7D73006452AF /* LoginViewController.swift */,
+				B7E8D4BE203E7D73006452AF /* Main.storyboard */,
+				B7E8D4C1203E7D73006452AF /* Assets.xcassets */,
+				B7E8D4C3203E7D73006452AF /* LaunchScreen.storyboard */,
+				B7E8D4C6203E7D73006452AF /* Info.plist */,
+				B7D9FA8F203FD11C0097AE67 /* ChatViewController.swift */,
+			);
+			path = Chatterbox;
+			sourceTree = "<group>";
+		};
+		B7E8D4CE203E7D73006452AF /* ChatterboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7E8D4CF203E7D73006452AF /* ChatterboxTests.swift */,
+				B7E8D4D1203E7D73006452AF /* Info.plist */,
+			);
+			path = ChatterboxTests;
+			sourceTree = "<group>";
+		};
+		B7E8D4D9203E7D73006452AF /* ChatterboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7E8D4DA203E7D74006452AF /* ChatterboxUITests.swift */,
+				B7E8D4DC203E7D74006452AF /* Info.plist */,
+			);
+			path = ChatterboxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7E8D4B6203E7D73006452AF /* Chatterbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E8D4DF203E7D74006452AF /* Build configuration list for PBXNativeTarget "Chatterbox" */;
+			buildPhases = (
+				7B306B6A5D41E55D53D9670A /* [CP] Check Pods Manifest.lock */,
+				B7E8D4B3203E7D73006452AF /* Sources */,
+				B7E8D4B4203E7D73006452AF /* Frameworks */,
+				B7E8D4B5203E7D73006452AF /* Resources */,
+				A656EB8C694C1E8E5C10272A /* [CP] Embed Pods Frameworks */,
+				E25715C5719CD5922A25043E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chatterbox;
+			productName = Chatterbox;
+			productReference = B7E8D4B7203E7D73006452AF /* Chatterbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7E8D4CA203E7D73006452AF /* ChatterboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E8D4E2203E7D74006452AF /* Build configuration list for PBXNativeTarget "ChatterboxTests" */;
+			buildPhases = (
+				5B9847473F4DD5C493512D41 /* [CP] Check Pods Manifest.lock */,
+				B7E8D4C7203E7D73006452AF /* Sources */,
+				B7E8D4C8203E7D73006452AF /* Frameworks */,
+				B7E8D4C9203E7D73006452AF /* Resources */,
+				3E275E9146B2A4AE0CE1A905 /* [CP] Embed Pods Frameworks */,
+				79C6B64DB5008BC8E30C5C57 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7E8D4CD203E7D73006452AF /* PBXTargetDependency */,
+			);
+			name = ChatterboxTests;
+			productName = ChatterboxTests;
+			productReference = B7E8D4CB203E7D73006452AF /* ChatterboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7E8D4D5203E7D73006452AF /* ChatterboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E8D4E5203E7D74006452AF /* Build configuration list for PBXNativeTarget "ChatterboxUITests" */;
+			buildPhases = (
+				52593731E19FEABD5A980860 /* [CP] Check Pods Manifest.lock */,
+				B7E8D4D2203E7D73006452AF /* Sources */,
+				B7E8D4D3203E7D73006452AF /* Frameworks */,
+				B7E8D4D4203E7D73006452AF /* Resources */,
+				44EFED0C28B3920C263BE2F8 /* [CP] Embed Pods Frameworks */,
+				97FF4DB772AF5A62F18C5425 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7E8D4D8203E7D73006452AF /* PBXTargetDependency */,
+			);
+			name = ChatterboxUITests;
+			productName = ChatterboxUITests;
+			productReference = B7E8D4D6203E7D73006452AF /* ChatterboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7E8D4AF203E7D73006452AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Manik Narang";
+				TargetAttributes = {
+					B7E8D4B6203E7D73006452AF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B7E8D4CA203E7D73006452AF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B7E8D4B6203E7D73006452AF;
+					};
+					B7E8D4D5203E7D73006452AF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B7E8D4B6203E7D73006452AF;
+					};
+				};
+			};
+			buildConfigurationList = B7E8D4B2203E7D73006452AF /* Build configuration list for PBXProject "Chatterbox" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7E8D4AE203E7D73006452AF;
+			productRefGroup = B7E8D4B8203E7D73006452AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7E8D4B6203E7D73006452AF /* Chatterbox */,
+				B7E8D4CA203E7D73006452AF /* ChatterboxTests */,
+				B7E8D4D5203E7D73006452AF /* ChatterboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7E8D4B5203E7D73006452AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E8D4C5203E7D73006452AF /* LaunchScreen.storyboard in Resources */,
+				B7E8D4C2203E7D73006452AF /* Assets.xcassets in Resources */,
+				B7E8D4C0203E7D73006452AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E8D4C9203E7D73006452AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E8D4D4203E7D73006452AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E275E9146B2A4AE0CE1A905 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatterboxTests/Pods-ChatterboxTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44EFED0C28B3920C263BE2F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatterboxUITests/Pods-ChatterboxUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52593731E19FEABD5A980860 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatterboxUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B9847473F4DD5C493512D41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatterboxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79C6B64DB5008BC8E30C5C57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatterboxTests/Pods-ChatterboxTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B306B6A5D41E55D53D9670A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chatterbox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97FF4DB772AF5A62F18C5425 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatterboxUITests/Pods-ChatterboxUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A656EB8C694C1E8E5C10272A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Chatterbox/Pods-Chatterbox-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chatterbox/Pods-Chatterbox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E25715C5719CD5922A25043E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chatterbox/Pods-Chatterbox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7E8D4B3203E7D73006452AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E8D4BD203E7D73006452AF /* LoginViewController.swift in Sources */,
+				B7D9FA90203FD11C0097AE67 /* ChatViewController.swift in Sources */,
+				B7E8D4BB203E7D73006452AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E8D4C7203E7D73006452AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E8D4D0203E7D73006452AF /* ChatterboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E8D4D2203E7D73006452AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E8D4DB203E7D74006452AF /* ChatterboxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7E8D4CD203E7D73006452AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7E8D4B6203E7D73006452AF /* Chatterbox */;
+			targetProxy = B7E8D4CC203E7D73006452AF /* PBXContainerItemProxy */;
+		};
+		B7E8D4D8203E7D73006452AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7E8D4B6203E7D73006452AF /* Chatterbox */;
+			targetProxy = B7E8D4D7203E7D73006452AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7E8D4BE203E7D73006452AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E8D4BF203E7D73006452AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7E8D4C3203E7D73006452AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E8D4C4203E7D73006452AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7E8D4DD203E7D74006452AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7E8D4DE203E7D74006452AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7E8D4E0203E7D74006452AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0716ED6FBAD8CA5A4D47892B /* Pods-Chatterbox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chatterbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maniknarang.Chatterbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7E8D4E1203E7D74006452AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C505FF7B9B0760B091D3453B /* Pods-Chatterbox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chatterbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maniknarang.Chatterbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7E8D4E3203E7D74006452AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFFEAE53C70B10F053A0D739 /* Pods-ChatterboxTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatterboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maniknarang.ChatterboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chatterbox.app/Chatterbox";
+			};
+			name = Debug;
+		};
+		B7E8D4E4203E7D74006452AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB4DD6361301D90327CCAD3D /* Pods-ChatterboxTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatterboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maniknarang.ChatterboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chatterbox.app/Chatterbox";
+			};
+			name = Release;
+		};
+		B7E8D4E6203E7D74006452AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5944BFD415E956A8E4EA6BD1 /* Pods-ChatterboxUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatterboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maniknarang.ChatterboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chatterbox;
+			};
+			name = Debug;
+		};
+		B7E8D4E7203E7D74006452AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA7561FC7562D1D04087F602 /* Pods-ChatterboxUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChatterboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maniknarang.ChatterboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chatterbox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7E8D4B2203E7D73006452AF /* Build configuration list for PBXProject "Chatterbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E8D4DD203E7D74006452AF /* Debug */,
+				B7E8D4DE203E7D74006452AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E8D4DF203E7D74006452AF /* Build configuration list for PBXNativeTarget "Chatterbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E8D4E0203E7D74006452AF /* Debug */,
+				B7E8D4E1203E7D74006452AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E8D4E2203E7D74006452AF /* Build configuration list for PBXNativeTarget "ChatterboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E8D4E3203E7D74006452AF /* Debug */,
+				B7E8D4E4203E7D74006452AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E8D4E5203E7D74006452AF /* Build configuration list for PBXNativeTarget "ChatterboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E8D4E6203E7D74006452AF /* Debug */,
+				B7E8D4E7203E7D74006452AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7E8D4AF203E7D73006452AF /* Project object */;
+}
