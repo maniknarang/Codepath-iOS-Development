@@ -17,10 +17,14 @@ class LoginViewController: UIViewController {
 
     @IBAction func signupButton(_ sender: Any) {
         signup()
+
+        self.performSegue(withIdentifier: "loginSegue", sender: nil)
     }
 
     @IBAction func loginButton(_ sender: Any) {
         login()
+
+        self.performSegue(withIdentifier: "loginSegue", sender: nil)
     }
     
     func signup() {

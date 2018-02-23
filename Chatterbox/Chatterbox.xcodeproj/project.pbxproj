@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		755F4371006A4E1D2675D0FC /* Pods_ChatterboxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8415E78DDB950B9042A0E4E /* Pods_ChatterboxTests.framework */; };
 		B7D9FA90203FD11C0097AE67 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D9FA8F203FD11C0097AE67 /* ChatViewController.swift */; };
+		B7D9FA94203FDABD0097AE67 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D9FA93203FDABD0097AE67 /* ChatCell.swift */; };
 		B7E8D4BB203E7D73006452AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E8D4BA203E7D73006452AF /* AppDelegate.swift */; };
 		B7E8D4BD203E7D73006452AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E8D4BC203E7D73006452AF /* LoginViewController.swift */; };
 		B7E8D4C0203E7D73006452AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E8D4BE203E7D73006452AF /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		0716ED6FBAD8CA5A4D47892B /* Pods-Chatterbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatterbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatterbox/Pods-Chatterbox.debug.xcconfig"; sourceTree = "<group>"; };
 		5944BFD415E956A8E4EA6BD1 /* Pods-ChatterboxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatterboxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatterboxUITests/Pods-ChatterboxUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7D9FA8F203FD11C0097AE67 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		B7D9FA93203FDABD0097AE67 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		B7E8D4B7203E7D73006452AF /* Chatterbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatterbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E8D4BA203E7D73006452AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7E8D4BC203E7D73006452AF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B7D9FA91203FDA850097AE67 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B7E8D4BC203E7D73006452AF /* LoginViewController.swift */,
+				B7D9FA8F203FD11C0097AE67 /* ChatViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B7D9FA92203FDA9D0097AE67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B7D9FA93203FDABD0097AE67 /* ChatCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		B7E8D4AE203E7D73006452AF = {
 			isa = PBXGroup;
 			children = (
@@ -139,13 +158,13 @@
 		B7E8D4B9203E7D73006452AF /* Chatterbox */ = {
 			isa = PBXGroup;
 			children = (
+				B7D9FA92203FDA9D0097AE67 /* Views */,
+				B7D9FA91203FDA850097AE67 /* ViewControllers */,
 				B7E8D4BA203E7D73006452AF /* AppDelegate.swift */,
-				B7E8D4BC203E7D73006452AF /* LoginViewController.swift */,
 				B7E8D4BE203E7D73006452AF /* Main.storyboard */,
 				B7E8D4C1203E7D73006452AF /* Assets.xcassets */,
 				B7E8D4C3203E7D73006452AF /* LaunchScreen.storyboard */,
 				B7E8D4C6203E7D73006452AF /* Info.plist */,
-				B7D9FA8F203FD11C0097AE67 /* ChatViewController.swift */,
 			);
 			path = Chatterbox;
 			sourceTree = "<group>";
@@ -464,6 +483,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7E8D4BD203E7D73006452AF /* LoginViewController.swift in Sources */,
+				B7D9FA94203FDABD0097AE67 /* ChatCell.swift in Sources */,
 				B7D9FA90203FD11C0097AE67 /* ChatViewController.swift in Sources */,
 				B7E8D4BB203E7D73006452AF /* AppDelegate.swift in Sources */,
 			);
