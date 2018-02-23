@@ -15,11 +15,14 @@ class ChatViewController: UIViewController, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
 
     var textToSave = [] as! Array<String>
+    var pfobjects = [] as! Array<PFObject>
+    var iLoveHacking = 0
     
     @IBAction func sendButton(_ sender: Any) {
         let chatMessage = PFObject(className: "Message")
         
         chatMessage["text"] = messageTextField.text ?? ""
+        chatMessage["user"] = PFUser.current()
 
         chatMessage.saveInBackground { (success, error) in
             if success {
@@ -66,6 +69,26 @@ class ChatViewController: UIViewController, UITableViewDataSource {
     }
     
     @objc func onTimer() {
+        if (iLoveHacking == 0) {
+            let query = PFQuery(className: "Message")
+            query.addDescendingOrder("createdAt")
+            query.findObjectsInBackground { (objects, error) in
+                if error == nil {
+                    if let objects = objects {
+                        self.pfobjects = objects
+                        
+                        var i = 0
+                        while (i < self.pfobjects.count) {
+                            self.textToSave.append(self.pfobjects[i]["text"] as! String)
+                            i = i + 1
+                        }
+                    }
+                } else {
+                    // nothing hehe
+                }
+            }
+            iLoveHacking = iLoveHacking + 1
+        }
         tableView.reloadData()
     }
 
