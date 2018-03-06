@@ -50,16 +50,16 @@
 		A0274E4BBA7E3A768A46223E /* Pods-twitter_alamofire_demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twitter_alamofire_demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-twitter_alamofire_demoTests/Pods-twitter_alamofire_demoTests.release.xcconfig"; sourceTree = "<group>"; };
 		AA8B2B7251F8A233C7185620 /* Pods-twitter_alamofire_demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twitter_alamofire_demoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-twitter_alamofire_demoUITests/Pods-twitter_alamofire_demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AFBE91109514C5BA32FE14C3 /* Pods_twitter_alamofire_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_twitter_alamofire_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED1AFD2D1E942B2500FD4B90 /* twitter_alamofire_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twitter_alamofire_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1AFD2D1E942B2500FD4B90 /* Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1AFD301E942B2500FD4B90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED1AFD351E942B2500FD4B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED1AFD371E942B2500FD4B90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED1AFD3A1E942B2500FD4B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED1AFD3C1E942B2500FD4B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED1AFD411E942B2500FD4B90 /* twitter_alamofire_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twitter_alamofire_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1AFD411E942B2500FD4B90 /* TwitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1AFD451E942B2500FD4B90 /* twitter_alamofire_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twitter_alamofire_demoTests.swift; sourceTree = "<group>"; };
 		ED1AFD471E942B2500FD4B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED1AFD4C1E942B2500FD4B90 /* twitter_alamofire_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twitter_alamofire_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1AFD4C1E942B2500FD4B90 /* TwitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1AFD501E942B2500FD4B90 /* twitter_alamofire_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twitter_alamofire_demoUITests.swift; sourceTree = "<group>"; };
 		ED1AFD521E942B2500FD4B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED1AFD5E1E94421000FD4B90 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
@@ -138,9 +138,9 @@
 		ED1AFD2E1E942B2500FD4B90 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED1AFD2D1E942B2500FD4B90 /* twitter_alamofire_demo.app */,
-				ED1AFD411E942B2500FD4B90 /* twitter_alamofire_demoTests.xctest */,
-				ED1AFD4C1E942B2500FD4B90 /* twitter_alamofire_demoUITests.xctest */,
+				ED1AFD2D1E942B2500FD4B90 /* Twitter.app */,
+				ED1AFD411E942B2500FD4B90 /* TwitterTests.xctest */,
+				ED1AFD4C1E942B2500FD4B90 /* TwitterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,9 +217,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED1AFD2C1E942B2500FD4B90 /* twitter_alamofire_demo */ = {
+		ED1AFD2C1E942B2500FD4B90 /* Twitter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED1AFD551E942B2500FD4B90 /* Build configuration list for PBXNativeTarget "twitter_alamofire_demo" */;
+			buildConfigurationList = ED1AFD551E942B2500FD4B90 /* Build configuration list for PBXNativeTarget "Twitter" */;
 			buildPhases = (
 				5C4A3CEE1918456EBE336A5E /* [CP] Check Pods Manifest.lock */,
 				ED1AFD291E942B2500FD4B90 /* Sources */,
@@ -232,14 +232,14 @@
 			);
 			dependencies = (
 			);
-			name = twitter_alamofire_demo;
+			name = Twitter;
 			productName = twitter_alamofire_demo;
-			productReference = ED1AFD2D1E942B2500FD4B90 /* twitter_alamofire_demo.app */;
+			productReference = ED1AFD2D1E942B2500FD4B90 /* Twitter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ED1AFD401E942B2500FD4B90 /* twitter_alamofire_demoTests */ = {
+		ED1AFD401E942B2500FD4B90 /* TwitterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED1AFD581E942B2500FD4B90 /* Build configuration list for PBXNativeTarget "twitter_alamofire_demoTests" */;
+			buildConfigurationList = ED1AFD581E942B2500FD4B90 /* Build configuration list for PBXNativeTarget "TwitterTests" */;
 			buildPhases = (
 				01C0654038116EE22955C0D0 /* [CP] Check Pods Manifest.lock */,
 				ED1AFD3D1E942B2500FD4B90 /* Sources */,
@@ -253,14 +253,14 @@
 			dependencies = (
 				ED1AFD431E942B2500FD4B90 /* PBXTargetDependency */,
 			);
-			name = twitter_alamofire_demoTests;
+			name = TwitterTests;
 			productName = twitter_alamofire_demoTests;
-			productReference = ED1AFD411E942B2500FD4B90 /* twitter_alamofire_demoTests.xctest */;
+			productReference = ED1AFD411E942B2500FD4B90 /* TwitterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		ED1AFD4B1E942B2500FD4B90 /* twitter_alamofire_demoUITests */ = {
+		ED1AFD4B1E942B2500FD4B90 /* TwitterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED1AFD5B1E942B2500FD4B90 /* Build configuration list for PBXNativeTarget "twitter_alamofire_demoUITests" */;
+			buildConfigurationList = ED1AFD5B1E942B2500FD4B90 /* Build configuration list for PBXNativeTarget "TwitterUITests" */;
 			buildPhases = (
 				7022D4CCEFBD1FE1F7645438 /* [CP] Check Pods Manifest.lock */,
 				ED1AFD481E942B2500FD4B90 /* Sources */,
@@ -274,9 +274,9 @@
 			dependencies = (
 				ED1AFD4E1E942B2500FD4B90 /* PBXTargetDependency */,
 			);
-			name = twitter_alamofire_demoUITests;
+			name = TwitterUITests;
 			productName = twitter_alamofire_demoUITests;
-			productReference = ED1AFD4C1E942B2500FD4B90 /* twitter_alamofire_demoUITests.xctest */;
+			productReference = ED1AFD4C1E942B2500FD4B90 /* TwitterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -313,7 +313,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ED1AFD281E942B2500FD4B90 /* Build configuration list for PBXProject "twitter_alamofire_demo" */;
+			buildConfigurationList = ED1AFD281E942B2500FD4B90 /* Build configuration list for PBXProject "Twitter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -326,9 +326,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED1AFD2C1E942B2500FD4B90 /* twitter_alamofire_demo */,
-				ED1AFD401E942B2500FD4B90 /* twitter_alamofire_demoTests */,
-				ED1AFD4B1E942B2500FD4B90 /* twitter_alamofire_demoUITests */,
+				ED1AFD2C1E942B2500FD4B90 /* Twitter */,
+				ED1AFD401E942B2500FD4B90 /* TwitterTests */,
+				ED1AFD4B1E942B2500FD4B90 /* TwitterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -367,13 +367,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-twitter_alamofire_demoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		08A0276EE8AF7CDCC6E754D3 /* [CP] Embed Pods Frameworks */ = {
@@ -442,13 +445,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-twitter_alamofire_demo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7022D4CCEFBD1FE1F7645438 /* [CP] Check Pods Manifest.lock */ = {
@@ -457,13 +463,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-twitter_alamofire_demoUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EA162E987D837BDF5DC5369F /* [CP] Copy Pods Resources */ = {
@@ -487,9 +496,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-twitter_alamofire_demo/Pods-twitter_alamofire_demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+				"${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwiftAlamofire.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -534,12 +552,12 @@
 /* Begin PBXTargetDependency section */
 		ED1AFD431E942B2500FD4B90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ED1AFD2C1E942B2500FD4B90 /* twitter_alamofire_demo */;
+			target = ED1AFD2C1E942B2500FD4B90 /* Twitter */;
 			targetProxy = ED1AFD421E942B2500FD4B90 /* PBXContainerItemProxy */;
 		};
 		ED1AFD4E1E942B2500FD4B90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ED1AFD2C1E942B2500FD4B90 /* twitter_alamofire_demo */;
+			target = ED1AFD2C1E942B2500FD4B90 /* Twitter */;
 			targetProxy = ED1AFD4D1E942B2500FD4B90 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -701,7 +719,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.twitter-alamofire-demoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twitter_alamofire_demo.app/twitter_alamofire_demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twitter.app/Twitter";
 			};
 			name = Debug;
 		};
@@ -717,7 +735,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.twitter-alamofire-demoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twitter_alamofire_demo.app/twitter_alamofire_demo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twitter.app/Twitter";
 			};
 			name = Release;
 		};
@@ -754,7 +772,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED1AFD281E942B2500FD4B90 /* Build configuration list for PBXProject "twitter_alamofire_demo" */ = {
+		ED1AFD281E942B2500FD4B90 /* Build configuration list for PBXProject "Twitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED1AFD531E942B2500FD4B90 /* Debug */,
@@ -763,7 +781,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED1AFD551E942B2500FD4B90 /* Build configuration list for PBXNativeTarget "twitter_alamofire_demo" */ = {
+		ED1AFD551E942B2500FD4B90 /* Build configuration list for PBXNativeTarget "Twitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED1AFD561E942B2500FD4B90 /* Debug */,
@@ -772,7 +790,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED1AFD581E942B2500FD4B90 /* Build configuration list for PBXNativeTarget "twitter_alamofire_demoTests" */ = {
+		ED1AFD581E942B2500FD4B90 /* Build configuration list for PBXNativeTarget "TwitterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED1AFD591E942B2500FD4B90 /* Debug */,
@@ -781,7 +799,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED1AFD5B1E942B2500FD4B90 /* Build configuration list for PBXNativeTarget "twitter_alamofire_demoUITests" */ = {
+		ED1AFD5B1E942B2500FD4B90 /* Build configuration list for PBXNativeTarget "TwitterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED1AFD5C1E942B2500FD4B90 /* Debug */,
